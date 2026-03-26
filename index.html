@@ -59,13 +59,13 @@
                 <div class="radiogroup">
                     <div class="formgroup radiotype">
                         <input type="radio" name="resident" id="yes" value="yes">
-                    </div>
                     <label for="yes">Yes</label>
+                    </div>
 
                     <div class="formgroup radiotype">
                         <input type="radio" name="resident" id="no" value="no">
-                    </div>
                     <label for="no">No</label>
+                    </div>
                 </div>
 
                 <h5>Passport Details</h5>
@@ -283,21 +283,22 @@
                     <label for="dob">Date of Birth:</label>
                     <input type="date" name="dob" id="dob">
                 </div>
+                <h5>Gender</h5>
                 <div class="radiogroup">
                     <div class="formgroup radiotype">
                         <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
                     </div>
-                    <label for="male">Male</label>
 
                     <div class="formgroup radiotype">
                         <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
                     </div>
-                    <label for="female">Female</label>
 
                     <div class="formgroup radiotype">
                         <input type="radio" name="gender" id="other" value="other">
-                    </div>
                     <label for="other">Other</label>
+                    </div>
                 </div>
                 <h5>Personal Details</h5>
                 <div class="formgroup">
@@ -310,7 +311,59 @@
                 </div>
                 <div class="formgroup">
                     <label for="state">State:</label>
-                    <input type="text" name="state" id="state">
+                    <select name="state" id="state">
+                        <option value="blank">--Select Your State--</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Connecticut">Connecticut</option>
+                        <option value="Delaware">Delaware</option>
+                        <option value="Florida">Florida</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Indiana">Indiana</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Kansas">Kansas</option>
+                        <option value="Kentucky">Kentucky</option>
+                        <option value="Louisiana">Louisiana</option>
+                        <option value="Maine">Maine</option>
+                        <option value="Maryland">Maryland</option>
+                        <option value="Massachusetts">Massachusetts</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="Mississippi">Mississippi</option>
+                        <option value="Missouri">Missouri</option>
+                        <option value="Montana">Montana</option>
+                        <option value="Nebraska">Nebraska</option>
+                        <option value="Nevada">Nevada</option>
+                        <option value="New Hampshire">New Hampshire</option>
+                        <option value="New Jersey">New Jersey</option>
+                        <option value="New Mexico">New Mexico</option>
+                        <option value="New York">New York</option>
+                        <option value="North Carolina">North Carolina</option>
+                        <option value="North Dakota">North Dakota</option>
+                        <option value="Ohio">Ohio</option>
+                        <option value="Oklahoma">Oklahoma</option>
+                        <option value="Oregon">Oregon</option>
+                        <option value="Pennsylvania">Pennsylvania</option>
+                        <option value="Rhode Island">Rhode Island</option>
+                        <option value="South Carolina">South Carolina</option>
+                        <option value="South Dakota">South Dakota</option>
+                        <option value="Tennessee">Tennessee</option>
+                        <option value="Texas">Texas</option>
+                        <option value="Utah">Utah</option>
+                        <option value="Vermont">Vermont</option>
+                        <option value="Virginia">Virginia</option>
+                        <option value="Washington">Washington</option>
+                        <option value="West Virginia">West Virginia</option>
+                        <option value="Wisconsin">Wisconsin</option>
+                        <option value="Wyoming">Wyoming</option>
+                    </select>
                 </div>
                 <div class="formgroup">
                     <label for="zizpcode">Zipcode:</label>
@@ -318,15 +371,16 @@
                 </div>
                 <div class="formgroup">
                     <label for="phone">Phone:</label>
-                    <input type="text" name="phone" id="phone">
+                    <input type="tel" name="phone" id="phone">
                 </div>
                 <div class="formgroup">
                     <label for="email">Email:</label>
-                    <input type="text" name="email" id="email">
+                    <input type="email" name="email" id="email">
                 </div>
                 <div class="formgroup">
                     <label for="occupation">Occupation:</label>
                     <select name="occupation" id="occupation">
+                        <option value="blank">--Select Your Occupation--</option>
                         <option value="Architecture and Engineering">Architecture and Engineering</option>
                         <option value="Arts">Arts</option>
                         <option value="Building and Grounds Cleaning and Maintenance">Building and Grounds Cleaning and
@@ -381,7 +435,7 @@
                 </div>
                 <div class="buttons">
                     <input type="submit" value="Submit Form">
-                    <input type="submit" value="Clear Form">
+                    <input type="reset" value="Clear Form">
                 </div>
             </form>
         </div>
